@@ -1,0 +1,28 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore build output directory
+build
+
+# Ignore coverage reports directory
+coverage
+
+# Ignore logs directory
+logs
+
+# Ignore any other generated or temporary files/directories
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore .env file
+*.env
+.env
+.env.*
+
+# Ignore vscode settings
+/.vscode
+
+# Ignore dist folder
+./dist
