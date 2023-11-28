@@ -17,6 +17,7 @@ const connectDB = async () => {
     );
   } catch (error) {
     throw Error(error);
+    process.exit(1);
   }
 };
 

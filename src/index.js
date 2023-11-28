@@ -20,5 +20,5 @@ try {
   await connectDB();
   startServer();
 } catch (error) {
-  console.log("MongoDB connection error: ", error);
+  console.log("MongoDB connection FAILED: ", error);
 }
