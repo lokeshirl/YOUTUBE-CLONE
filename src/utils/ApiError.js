@@ -1,20 +1,20 @@
 class ApiError extends Error {
   /**
    *
-   * @param {string} message
    * @param {number} statusCode
+   * @param {string} message
    * @param {any[]} errors
    * @param {string} stack
    */
   constructor(
-    message = "Something went wrong",
     statusCode,
+    message = "Something went wrong",
     errors = [],
     stack = ""
   ) {
     super(message);
-    this.message = message;
     this.statusCode = statusCode;
+    this.message = message;
     this.data = null;
     this.success = false;
     this.errors = errors;
